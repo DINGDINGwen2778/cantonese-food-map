@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>农讲所粤韵美食推荐</title>
+    <!-- Leaflet 地图库 -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入你的样式文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1><i class="fas fa-utensils"></i> 农讲所粤韵美食推荐</h1>
+            <p>探索广州农讲所周边的地道粤语美食文化，点击标记聆听原汁原味的点单对话</p>
+            <div class="subtitle">
+                <i class="fas fa-map-marker-alt"></i> 广州 · 农讲所地铁站周边
+            </div>
+        </div>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="map-logo">
+        <i class="fas fa-map-marked-alt logo-icon"></i> 农讲所美食地图
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Font Awesome 图标 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <!-- 数据文件 -->
+    <script src="data.js"></script>
+    <!-- 主逻辑文件 -->
+    <script src="main.js"></script>
+</body>
+</html>
